@@ -1,0 +1,53 @@
+.form {
+    margin-top: -1%;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.but {
+    margin-top: 2%;
+    font: inherit;
+    cursor: pointer;
+    background-color: #8a2b06;
+    border: 1px solid #8a2b06;
+    color: white;
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+    border-radius: 15px;
+    width: 22%;
+    margin-left: 0.5rem;
+}
+
+.but:hover,
+.but:active {
+    background-color: #611c00;
+}
+
+.in {
+    width: 10%;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-left: 2%;
+}
+
+.amt {
+    font-weight: 700;
+    font-size: 1.1em;
+}
+
+.error {
+    color: red;
+    animation: error-appear 1s ease-out forwards;
+}
+
+@keyframes error-appear {
+    from {
+        opacity: 0.2;
+        transform: translateY(1rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

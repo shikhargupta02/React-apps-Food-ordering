@@ -1,0 +1,45 @@
+.mealitems {
+    background-color: white;
+    margin: 2% 2%;
+}
+
+.nam {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 3.5% 0%;
+}
+
+.des {
+    margin-top: -2%;
+    margin-bottom: 2%;
+    font-style: italic;
+    font-family: cursive;
+}
+
+.price {
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    color: rgb(155, 50, 50);
+}
+
+.it {
+    width: 40%;
+}
+
+.for {
+    width: 55%;
+    padding-top: 3.5%;
+}
+
+.fl {
+    display: flex;
+    flex-direction: row;
+}
+
+.diff {
+    margin-top: 3%;
+    width: 100%;
+    background-color: rgb(84, 82, 82);
+    min-height: 0.05vh;
+}
